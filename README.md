@@ -37,3 +37,6 @@ Clone:
 `git add .`
 `git commit -m 'BRANCHNAME'`
 `git push origin BRANCHNAME`
+
+Remover packags:
+`npm uninstall <nome-do-pacote>`
