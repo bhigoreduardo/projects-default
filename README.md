@@ -30,3 +30,10 @@ Instalação pacote node:
 
 Clone:
 `git clone github.com/repositorio.git`
+`git branch`
+`git checkout -b BRANCHNAME`
+`git pull origin BRANCHNAME`
+
+`git add .`
+`git commit -m 'BRANCHNAME'`
+`git push origin BRANCHNAME`
