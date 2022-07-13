@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- METADADA -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS/JS IMPORT -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js" defer></script>
+
+    <!-- OG TAGS -->
+    <meta property="og:title" content="Título da página" />
+    <meta property="og:site" content="https://dominio.com.br" />
+    <meta property="og:site_name" content="Título da página" />
+    <meta property="og:image" content="https://dominio.com.br/assets/icons/favicon.png" />
+    <meta property="og:description" content="Resumo do conteúdo da página" />
+
+    <!-- GOOGLE TAGS -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Resumo do conteúdo da página" />
+    <meta name="keywords" content="Palavaras, Chaves" />
+    <meta name="copyright" content="Desenvolvido por Higor Eduardo" />
+    <meta name="author" content="Desenvolvido por Higor Eduardo" />
+
+    <!-- OG TAGS TWITTER -->
+    <meta property="twitter:title" content="Título da página" />
+    <meta property="twitter:description" content="Resumo do conteúdo da página" />
+    <meta property="twitter:image" content="https://dominio.com.br/assets/icons/favicon.png" />
+
+    <!-- SEARCH CONSOLE GOOGLE -->
+    <meta name="google-site-verification" content="" />
+
+    <!-- Hotjar Tracking Code for domain.com.br -->
+
+    <!-- FAVICON -->
+    <link rel="icon" href="./assets/icons/favicon.png" type="image/x-icon" />
+    <title>Title</title>
+  </head>
+
+  <body>
+    <!-- SEMANTICS TAGS/LANDMARKS -->
+    <!-- HEADER -->
+    <header role="banner">
+      Cabeçalho
+      <nav role="navigation" aria-level="main-navigation">
+        Navegação
+        <ul role="menu">
+          <a title="Menu link" role="menu-item" aria-selected="true" aria-labelledby="" href="">Menu link</a>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main role="main">
+      <section aria-label="Acessibilidade de texto">
+        <p>Texto português</p>
+        <p lang="en-US">Texto inglês referência</p>
+
+        <button aria-label="Acesse o site oficial da referência" aria-labelledby="siteOficial">Saber mais</button>
+        <p id="siteOficial">Explicação breve do site oficial</p>
+
+        <h1>Título único</h1>
+        <h6>Até h6</h6>
+        <p>Parágrafo</p>
+        <span>Texto</span>
+        <video width="480" height="270" controls>
+          <source src="" type="video/mp4" />
+        </video>
+        <iframe src="" width="480" height="270" frameborder="0"></iframe>
+      </section>
+
+      <section aria-label="Acessibilidade de tabelas">
+        <table sumary="Resumo da tabela">
+          <caption>
+            Informações
+          </caption>
+          <thead>
+            <tr>
+              <th abbr="Cabeçalho" scope="col">cabeçalho</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th scope="row">Dado</th>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td>Rodapé</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section aria-label="Acessibilidade de images">
+        <img src="" alt="Landscape" title="Landscape" aria-labelledby="description" />
+        <p id="description">Descrição da imagem</p>
+      </section>
+
+      <section aria-label="Acessibilidade de formulários">
+        <form action="" method="" enctype="multipart/form-data">
+          <label for="id">Texto</label>
+          <input type="text" name="" id="id" value="" />
+
+          <fieldset>
+            <legend></legend>
+            <input type="checkbox" name="" id="" value="" />
+          </fieldset>
+
+          <fieldset>
+            <legend></legend>
+            <input type="radio" name="" id="" value="" />
+          </fieldset>
+
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+
+          <input onclick="send()" type="button" value="" />
+          <input type="submit" value="" />
+        </form>
+      </section>
+    </main>
+
+    <footer role="contentinfo"></footer>
+
+    <!-- JS IMPORT -->
+    <script type="text/javascript" src=""></script>
+  </body>
+</html>
