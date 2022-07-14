@@ -8,7 +8,7 @@ Abaixo alguns comandos básicos e essenciais de Git.
 
 ## 🦄 Tipos e Descrição
 
-- Ativar usuário:
+- :smile: Ativar usuário:
 <table>
 <thead>
 <tr>
