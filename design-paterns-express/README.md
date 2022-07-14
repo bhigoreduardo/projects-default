@@ -13,7 +13,7 @@ Install Dependeces: `npm i`
 
 ## 📚 Seções
 
-O server é composto por duas páginas:
+O server é composto por uma página:
 
 - **Home:** Nele temos uma aplicação Request API;
 
