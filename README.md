@@ -45,7 +45,7 @@ Abaixo alguns comandos básicos e essenciais de Git.
 </tbody>
 </table>
 
-- Criação de repositório:
+- :star_struck: Criação de repositório:
 <table>
 <thead>
 <tr>
