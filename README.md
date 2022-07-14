@@ -10,26 +10,32 @@ Abaixo alguns comandos básicos e essenciais de Git.
 
 - Ativar usuário:
 <table>
-
 <thead>
 <tr>
-<th>Comando</th>
-<th>Resultado/Explicação</th>
+    <th>Comando</th>
+    <th>Resultado/Explicação</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td><code>ssh-keygen -t rsa -b 4096 -C "EMAIL"</code></td>
-<td>Vínculo da conta</td>
+    <td><code>ssh-keygen -t rsa -b 4096 -C "EMAIL"</code></td>
+    <td>Vínculo da conta</td>
+</tr>
+<tr>
+    <td><code>eval $(ssh-agent -s)</code></td>
+    <td>Vínculo da conta</td>
+</tr>
+<tr>
+    <td><code>ssh-add ~/.ssh/id_rsa</code></td>
+    <td>Vínculo da conta</td>
+</tr>
+<tr>
+    <td><code>clip < ~/.ssh/id_rsa.pub</code></td>
+    <td>Vínculo da conta</td>
 </tr>
 </tbody>
-
 </table>
-
-`eval $(ssh-agent -s)`
-`ssh-add ~/.ssh/id_rsa`
-`clip < ~/.ssh/id_rsa.pub`
 
 - Criação de repositório:
   `mkdir FOLDERNAME`
