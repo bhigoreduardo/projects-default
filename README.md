@@ -1,12 +1,20 @@
-# projects-default
+<h1 align="center">
+📄<br>Padrões de projetos
+</h1>
 
-Vinculando conta com usuário:
+Documentação de como aprendi e relacionei os métodos de criação de projetos front-end e back-end.
+
+Abaixo alguns comandos básicos e essenciais de Git.
+
+## 🦄 Tipos e Descrição
+
+- Vincular conta de usuário:
 `ssh-keygen -t rsa -b 4096 -C "EMAIL"`
 `eval $(ssh-agent -s)`
 `ssh-add ~/.ssh/id_rsa`
 `clip < ~/.ssh/id_rsa.pub`
 
-Criação de repositório:
+- Criação de repositório:
 `mkdir FOLDERNAME`
 `git init`
 `touch index.html`
@@ -19,16 +27,16 @@ Criação de repositório:
 `git push`
 `code .`
 
-Criação de branch:
+- Criação de branch:
 `git add .`
 `git commit -m "add README.md"`
 `git push`
 `git push -u origin origin dev (git push --set-upstream origin dev)`
 
-Instalação pacote node:
+- Instalação pacote node:
 `npm init -y`
 
-Clone:
+- Clone:
 `git clone github.com/repositorio.git`
 `git branch`
 `git checkout -b BRANCHNAME`
@@ -38,5 +46,5 @@ Clone:
 `git commit -m 'BRANCHNAME'`
 `git push origin BRANCHNAME`
 
-Remover packags:
-`npm uninstall <nome-do-pacote>`
+- Remover packags:
+`npm uninstall PACKAGENAME`
