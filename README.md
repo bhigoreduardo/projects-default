@@ -8,11 +8,14 @@ Abaixo alguns comandos básicos e essenciais de Git.
 
 ## 🦄 Tipos e Descrição
 
+
 - Vincular conta de usuário:
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+<br>
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+<br>
 
 `ssh-keygen -t rsa -b 4096 -C "EMAIL"`
 `eval $(ssh-agent -s)`
