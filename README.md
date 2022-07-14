@@ -20,7 +20,7 @@ Abaixo alguns comandos básicos e essenciais de Git.
 
 <tbody>
 <tr>
-<td>`ssh-keygen -t rsa -b 4096 -C "EMAIL"`</td>
+<td><code>ssh-keygen -t rsa -b 4096 -C "EMAIL"</code></td>
 <td>Vínculo da conta</td>
 </tr>
 </tbody>
