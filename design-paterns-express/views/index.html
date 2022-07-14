@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom CSS File Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Custom Search JS File Link -->
+    <script src="./js/search.js" defer></script>
+    <!-- Custom Insert JS File Link -->
+    <script src="./js/insert.js" defer></script>
+    <title>Express Server Learn</title>
+  </head>
+
+  <body>
+    <section class="search">
+      <div id="result-search" class="container">
+        <h1>Pesquisa</h1>
+        <article>
+          <p>id:<small>1</small></p>
+          <p>chave:<small>valor-1</small></p>
+          <p>data:<small>06/6/2020</small></p>
+          <p>Alvo da pesquisa:<small class="target">valor-1</small></p>
+        </article>
+      </div>
+
+      <div class="box-container">
+        <h1>Todos</h1>
+        <div class="box">
+          <button onclick="searchAll()">Pesquisar</button>
+        </div>
+
+        <h1>Parâmetros</h1>
+        <div class="box">
+          <input type="text" id="target-params" placeholder="Pesquisar.." />
+          <button onclick="searchParams()">Pesquisar</button>
+        </div>
+
+        <h1>Query</h1>
+        <div class="box">
+          <input type="text" id="target-query" placeholder="Pesquisar.." />
+          <button onclick="searchQuery()">Pesquisar</button>
+        </div>
+
+        <h1>JSON</h1>
+        <div class="box">
+          <input type="text" id="target-json" placeholder="Pesquisar.." />
+          <button onclick="searchJSON()">Pesquisar</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="sketch">
+      <div class="bee-sketch red"></div>
+      <div class="bee-sketch blue"></div>
+    </div>
+
+    <section class="insert">
+      <div id="result-insert" class="container">
+        <h1>Inserir</h1>
+        <article>
+          <p>id:<small class="target">1</small></p>
+          <p>chave:<small class="target">valor-1</small></p>
+        </article>
+      </div>
+
+      <div class="box-container">
+        <h1>Parâmetros</h1>
+        <div class="box">
+          <div class="input-box">
+            <input type="text" id="id-params" placeholder="ID.." />
+            <input type="text" id="value-params" placeholder="Chave.." />
+          </div>
+          <button onclick="insertParams()">Inserir</button>
+        </div>
+
+        <h1>Query</h1>
+        <div class="box">
+          <div class="input-box">
+            <input type="text" id="id-query" placeholder="ID.." />
+            <input type="text" id="value-query" placeholder="Chave.." />
+          </div>
+          <button onclick="insertQuery()">Inserir</button>
+        </div>
+
+        <h1>JSON</h1>
+        <div class="box">
+          <div class="input-box">
+            <input type="text" id="id-json" placeholder="ID.." />
+            <input type="text" id="value-json" placeholder="Chave.." />
+          </div>
+          <button onclick="insertJSON()">Inserir</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
