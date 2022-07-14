@@ -20,35 +20,83 @@ Abaixo alguns comandos básicos e essenciais de Git.
 <tbody>
 <tr>
     <td><code>ssh-keygen -t rsa -b 4096 -C "EMAIL"</code></td>
-    <td>Vínculo da conta</td>
+    <td>Vincular conta</td>
 </tr>
 <tr>
     <td><code>eval $(ssh-agent -s)</code></td>
-    <td>Vínculo da conta</td>
+    <td>Vincular conta</td>
 </tr>
 <tr>
     <td><code>ssh-add ~/.ssh/id_rsa</code></td>
-    <td>Vínculo da conta</td>
+    <td>Vincular conta</td>
 </tr>
 <tr>
     <td><code>clip < ~/.ssh/id_rsa.pub</code></td>
-    <td>Vínculo da conta</td>
+    <td>Vincular conta</td>
+</tr>
+<tr>
+    <td><code>git config --global user.email "EMAIL"</code></td>
+    <td>Vincular conta</td>
+</tr>
+<tr>
+    <td><code>git config --golbal user.name "USER"</code></td>
+    <td>Vincular conta</td>
 </tr>
 </tbody>
 </table>
 
 - Criação de repositório:
-  `mkdir FOLDERNAME`
-  `git init`
-  `touch index.html`
-  `git add .`
-  `git config --global user.email "EMAIL"`
-  `git config --golbal user.name "USER"`
-  `git commit -m "first-commit"`
-  `git remote add origin https://github.com/user/folder-name`
-  `git push --set-upstream origin master`
-  `git push`
-  `code .`
+<table>
+<thead>
+<tr>
+    <th>Comando</th>
+    <th>Resultado/Explicação</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+    <td><code>mkdir FOLDERNAME</code></td>
+    <td>Criar pasta/diretório</td>
+</tr>
+<tr>
+    <td><code>git init</code></td>
+    <td>Criar repositório</td>
+</tr>
+<tr>
+    <td><code>touch index.html</code></td>
+    <td>Criar arquivo</td>
+</tr>
+<tr>
+    <td><code>git add .</code></td>
+    <td>Preparar arquivo</td>
+</tr>
+<tr>
+    <td><code>git commit -m "first-commit"</code></td>
+    <td>Commit Git</td>
+</tr>
+<tr>
+    <td><code>git remote add origin https://github.com/user/folder-name</code></td>
+    <td>Criar entrada no repositório</td>
+</tr>
+<tr>
+    <td><code>git push --set-upstream origin master</code></td>
+    <td>Branch do repositório</td>
+</tr>
+<tr>
+    <td><code>git push</code></td>
+    <td>Enviar ao repositório remoto</td>
+</tr>
+<tr>
+    <td><code>git clone URLPATH</code></td>
+    <td>Clonar repositório</td>
+</tr>
+<tr>
+    <td><code>code .</code></td>
+    <td>Abrir editor</td>
+</tr>
+</tbody>
+</table>
 
 - Criação de branch:
   `git add .`
