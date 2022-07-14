@@ -1,0 +1,111 @@
+.information {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 70px;
+  align-items: center;
+  width: 100%;
+}
+
+.information .card {
+  position: relative;
+}
+
+.information .card .card-front {
+  position: relative;
+  background: var(--color-white);
+  box-shadow: var(--box-shadow-25);
+  border-radius: 50px;
+  padding: 45px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.information .card .card-front h1 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 40px;
+}
+
+.information .card .card-front p {
+  font-size: 17px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.information .card .card-front p span {
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+.information .card .card-front i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: inline-block;
+  border: 3px solid var(--color-black);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.information .card .card-front .arrow {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+  width: 90px;
+  height: 70px;
+  line-height: 70px;
+  background: rgba(196, 196, 196, 0.19);
+  border-radius: 85px;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+
+.information .card .card-front .arrow img {
+  width: 30%;
+}
+
+.information .card .card-front:hover .arrow {
+  right: 0px;
+  bottom: 0px;
+  background: rgba(196, 196, 196, 0.6);
+}
+
+.information .card .card-back {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 95%;
+  height: 100%;
+  background: var(--color-black);
+  box-shadow: var(--box-shadow-25);
+  border-radius: 50px;
+  transform: matrix(0.99, 0.13, -0.16, 0.99, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .information {
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+
+  .card .card-front h1 {
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  .card .card-front p {
+    font-size: 14px;
+  }
+
+  .information .card .card-back {
+    left: 10px;
+  }
+}

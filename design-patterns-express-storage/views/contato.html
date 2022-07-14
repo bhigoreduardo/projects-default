@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom CSS File Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Custom JS File Link -->
+    <script src="./js/main.js" defer></script>
+    <title>Movie Search - Contato</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header" class="header" role="banner">
+      <a href="/" class="logo" title="Movie"><img src="./assets/img/logo.png" alt="Logo Movie" /></a>
+
+      <nav class="navigation-desktop" role="navigation" aria-level="main-navigation">
+        <ul role="menu">
+          <li role="menu-item"><a href="/" title="Movie">Home</a></li>
+          <li role="menu-item"><a href="contato" title="Contato">Contato</a></li>
+          <li role="menu-item">
+            <a href="perfil" title="Perfil"><img src="./assets/icons/profile.svg" alt="Perfil" /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="navigation-mobile" role="navigation" aria-level="main-navigation">
+        <div class="toggle-menu">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul class="menu-mobile" role="menu">
+            <li role="menu-item"><a href="/" title="Movie">Home</a></li>
+            <li role="menu-item"><a href="contato" title="Contato">Contato</a></li>
+            <li role="menu-item">
+              <a href="perfil" title="Perfil"><img src="./assets/icons/profile.svg" alt="Perfil" /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- / HEADER -->
+
+    <main>
+      <!-- CONTACT -->
+      <section class="contact" aria-label="Seção para contato">
+        <div class="headline">
+          <h1><span>E</span>ntre em contato conosco</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, nisi!</p>
+        </div>
+
+        <form method="POST">
+          <fieldset>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" placeholder="Informe seu nome" />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Insira seu melhor e-mail" />
+
+            <label for="phone">Telefone:</label>
+            <input type="telephone" id="phone" placeholder="Insira seu número de celular" />
+
+            <label for="message">Escreva sua mensagem:</label>
+            <textarea id="message" rows="10" cols="30" placeholder="Me conte sua mensagem"></textarea>
+          </fieldset>
+
+          <div class="button" type="submit">Enviar mensagem :)</div>
+        </form>
+      </section>
+      <!-- / CONTACT -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+      <p>Copyright © 2022 - Todos os direitos reservados</p>
+    </footer>
+    <!-- / FOOTER -->
+  </body>
+</html>

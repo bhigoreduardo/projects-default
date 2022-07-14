@@ -1,0 +1,77 @@
+.headline h1 {
+  font-size: 48px;
+  color: var(--color-white);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.headline h1 span {
+  display: inline-block;
+  background-color: var(--color-brown);
+  text-align: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 17px;
+}
+
+.headline p {
+  font-size: 17px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+}
+
+form {
+  width: 98%;
+  max-width: 800px;
+  /* text-align: center; */
+}
+
+form fieldset {
+  padding: 20px;
+  background: rgba(162, 162, 162, 0.2);
+  box-shadow: var(--box-shadow-25);
+  backdrop-filter: blur(50px);
+  border-radius: 50px;
+}
+
+form label {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px 10px;
+  background: var(--color-black);
+  box-shadow: var(--box-shadow-25);
+  border-radius: 20px;
+  margin: 10px 0 20px 0;
+  color: var(--color-white);
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+form input:focus,
+form textarea:focus {
+  background-color: var(--color-info);
+  color: var(--color-white);
+}
+
+form .button {
+  display: inline-block;
+  padding: 20px 60px;
+  font-size: 16px;
+  color: var(--color-white);
+  background: var(--linear-gradient);
+  border-radius: 48px;
+  border: 1px solid var(--color-white);
+  margin: 10px;
+  cursor: pointer;
+}

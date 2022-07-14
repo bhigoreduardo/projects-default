@@ -1,0 +1,26 @@
+/* RESET COMPONENTS */
+@import url(./default/reset.css);
+
+/* HELPERS COMPONENTS */
+@import url(./default/helpers.css);
+
+/* HEADER COMPONENT */
+@import url(./components/header.css);
+
+/* INFORMATION COMPONENT */
+@import url(./components/information.css);
+
+/* DESCRIPTION COMPONENT */
+@import url(./components/description.css);
+
+/* CONTACT COMPONENT */
+@import url(./components/contact.css);
+
+/* LOADER COMPONENT */
+@import url(./components/loader.css);
+
+/* 404 COMPONENT */
+@import url(./components/404.css);
+
+/* FOOTER COMPONENT */
+@import url(./components/footer.css);

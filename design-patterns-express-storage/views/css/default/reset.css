@@ -1,0 +1,66 @@
+/* VARIABLES */
+@import url(./vars.css);
+
+/* BASE */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--color-light);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-info);
+}
+
+input[type="submit"],
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  border: none;
+  resize: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+section {
+  padding: 50px 20px;
+}

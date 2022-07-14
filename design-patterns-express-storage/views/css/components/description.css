@@ -1,0 +1,129 @@
+.description .movie-description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 30px;
+  padding: 30px;
+  background: rgba(162, 162, 162, 0.2);
+  box-shadow: var(--box-shadow-25);
+  backdrop-filter: blur(50px);
+  border-radius: 50px;
+}
+
+.description .movie-description .wrapper-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(50px);
+  border-radius: 22px;
+}
+
+.description .movie-description .wrapper-image img {
+  border-radius: 5px;
+}
+
+.description .movie-description .wrapper-image span {
+  display: block;
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  width: 21.35px;
+  height: 20.44px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.description .movie-description .description-content .headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 45px;
+}
+
+.description .movie-description .description-content .headline p {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.description .movie-description .description-content .headline p span {
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background: var(--color-brown);
+  border-radius: 17px;
+}
+
+.description .movie-description .description-content .headline .label {
+  font-size: 14px;
+  height: 40px;
+  padding: 0 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-white);
+  background: var(--linear-gradient);
+  border-radius: 48px;
+}
+
+.description .movie-description .description-content h2 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-bottom: 20px;
+}
+
+.description .movie-description .description-content h2 span {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: rgba(255, 204, 77, 0.67);
+  border-radius: 8px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.description .movie-description .description-content .text {
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+.description .movie-description .description-content small {
+  display: inline-block;
+  text-align: center;
+  width: 134px;
+  height: 21px;
+  font-size: 11px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 44px;
+}
+
+@media screen and (max-width: 768px) {
+  .description .movie-description {
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .description .movie-description .description-content .headline {
+    flex-direction: column;
+  }
+}
