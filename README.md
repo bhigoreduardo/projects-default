@@ -88,34 +88,78 @@ Abaixo alguns comandos básicos e essenciais de Git.
     <td>Enviar ao repositório remoto</td>
 </tr>
 <tr>
-    <td><code>git clone URLPATH</code></td>
-    <td>Clonar repositório</td>
-</tr>
-<tr>
     <td><code>code .</code></td>
     <td>Abrir editor</td>
+</tr>
+<tr>
+    <td><code>git push -u origin origin dev (git push --set-upstream origin dev)</code></td>
+    <td>Criar branch</td>
 </tr>
 </tbody>
 </table>
 
-- Criação de branch:
-  `git add .`
-  `git commit -m "add README.md"`
-  `git push`
-  `git push -u origin origin dev (git push --set-upstream origin dev)`
+- :stuck_out_tongue_winking_eye: Clonar repositório:
+<table>
+<thead>
+<tr>
+    <th>Comando</th>
+    <th>Resultado/Explicação</th>
+</tr>
+</thead>
 
-- Instalação pacote node:
-  `npm init -y`
+<tbody>
+<tr>
+    <td><code>git clone github.com/repositorio.git</code></td>
+    <td>Clonar repositório</td>
+</tr>
+<tr>
+    <td><code>git branch</code></td>
+    <td>Exibir branchs</td>
+</tr>
+<tr>
+    <td><code>git checkout -b BRANCHNAME</code></td>
+    <td>Trocar branch</td>
+</tr>
+<tr>
+    <td><code>git pull origin BRANCHNAME</code></td>
+    <td>Comparar branch</td>
+</tr>
+<tr>
+    <td><code>git add .</code></td>
+    <td>Preparar branch</td>
+</tr>
+<tr>
+    <td><code>git commit -m 'BRANCHNAME'</code></td>
+    <td>Commit branch</td>
+</tr>
+<tr>
+    <td><code>git push origin BRANCHNAME</code></td>
+    <td>Enviar branch</td>
+</tr>
+</tbody>
+</table>
 
-- Clone:
-  `git clone github.com/repositorio.git`
-  `git branch`
-  `git checkout -b BRANCHNAME`
-  `git pull origin BRANCHNAME`
+- :face_exhaling: Pacotes node:
+<table>
+<thead>
+<tr>
+    <th>Comando</th>
+    <th>Resultado/Explicação</th>
+</tr>
+</thead>
 
-`git add .`
-`git commit -m 'BRANCHNAME'`
-`git push origin BRANCHNAME`
-
-- Remover packags:
-  `npm uninstall PACKAGENAME`
+<tbody>
+<tr>
+    <td><code>npm init -y</code></td>
+    <td>Iniciar pacote</td>
+</tr>
+<tr>
+    <td><code>npm install PACKAGENAME</code></td>
+    <td>Instalar pacote</td>
+</tr>
+<tr>
+    <td><code>npm uninstall PACKAGENAME</code></td>
+    <td>Remover pacote</td>
+</tr>
+</tbody>
+</table>
