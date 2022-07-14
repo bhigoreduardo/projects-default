@@ -13,10 +13,9 @@ Install Dependeces: `npm i`
 
 ## 📚 Seções
 
-O server é composto por duas páginas/rotas:
+O server é composto por duas páginas:
 
-- **Home:** Nele temos uma breve apresentação;
-- **Contato:** Nessa seção tenho um formulário de contato;
+- **Home:** Nele temos uma aplicação Request API;
 
 ## 💼 Tecnologias utilizadas
 
