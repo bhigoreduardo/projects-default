@@ -8,51 +8,60 @@ Abaixo alguns comandos básicos e essenciais de Git.
 
 ## 🦄 Tipos e Descrição
 
+- Ativar usuário:
+<table>
 
-- Vincular conta de usuário:
-<br>
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-<br>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Resultado/Explicação</th>
+</tr>
+</thead>
 
-`ssh-keygen -t rsa -b 4096 -C "EMAIL"`
+<tbody>
+<tr>
+<td>`ssh-keygen -t rsa -b 4096 -C "EMAIL"`</td>
+<td>Vínculo da conta</td>
+</tr>
+</tbody>
+
+</table>
+
 `eval $(ssh-agent -s)`
 `ssh-add ~/.ssh/id_rsa`
 `clip < ~/.ssh/id_rsa.pub`
 
 - Criação de repositório:
-`mkdir FOLDERNAME`
-`git init`
-`touch index.html`
-`git add .`
-`git config --global user.email "EMAIL"`
-`git config --golbal user.name "USER"`
-`git commit -m "first-commit"`
-`git remote add origin https://github.com/user/folder-name`
-`git push --set-upstream origin master`
-`git push`
-`code .`
+  `mkdir FOLDERNAME`
+  `git init`
+  `touch index.html`
+  `git add .`
+  `git config --global user.email "EMAIL"`
+  `git config --golbal user.name "USER"`
+  `git commit -m "first-commit"`
+  `git remote add origin https://github.com/user/folder-name`
+  `git push --set-upstream origin master`
+  `git push`
+  `code .`
 
 - Criação de branch:
-`git add .`
-`git commit -m "add README.md"`
-`git push`
-`git push -u origin origin dev (git push --set-upstream origin dev)`
+  `git add .`
+  `git commit -m "add README.md"`
+  `git push`
+  `git push -u origin origin dev (git push --set-upstream origin dev)`
 
 - Instalação pacote node:
-`npm init -y`
+  `npm init -y`
 
 - Clone:
-`git clone github.com/repositorio.git`
-`git branch`
-`git checkout -b BRANCHNAME`
-`git pull origin BRANCHNAME`
+  `git clone github.com/repositorio.git`
+  `git branch`
+  `git checkout -b BRANCHNAME`
+  `git pull origin BRANCHNAME`
 
 `git add .`
 `git commit -m 'BRANCHNAME'`
 `git push origin BRANCHNAME`
 
 - Remover packags:
-`npm uninstall PACKAGENAME`
+  `npm uninstall PACKAGENAME`
