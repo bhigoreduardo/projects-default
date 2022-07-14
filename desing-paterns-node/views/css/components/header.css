@@ -1,0 +1,91 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 5%;
+  z-index: 2;
+}
+
+.header.active {
+  background-color: var(--color-light);
+}
+
+.header .logo {
+  width: 100px;
+  margin-right: auto;
+}
+
+.header .navbar a {
+  font-size: 20px;
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+.header .navbar a {
+  margin-right: 60px;
+}
+
+.header .icons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.header .icons-container i {
+  font-size: 20px;
+  color: var(--color-dark);
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header .icons-container i.fa-user {
+  color: var(--color-light);
+  background-color: var(--color-success);
+  border-radius: 50%;
+}
+
+.header .icons-container #icon-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: 5%;
+
+    padding: 50px;
+    width: 250px;
+    background: var(--color-light);
+    border: var(--border);
+    border-radius: var(--border-radius);
+
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.5s linear;
+  }
+
+  .header .navbar.active {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .header .navbar a:not(:last-child) {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .header .icons-container #icon-menu {
+    display: inline-block;
+    background-color: var(--color-light);
+    border-radius: var(--border-radius);
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "rootFolder": "./views",
+  "defaultIndex": "/index.html",
+  "contactIndex": "/contato.html",
+  "types": {
+    "htm": "text/html",
+    "html": "text/html",
+    "jpg": "image/jpeg",
+    "jpeg": "image/jpeg",
+    "png": "image/png",
+    "svg": "image/svg+xml",
+    "css": "text/css",
+    "js": "text/javascript",
+    "json": "application/json"
+  }
+}

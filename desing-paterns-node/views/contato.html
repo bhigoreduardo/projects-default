@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Custom CSS File Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Custom JS File Link -->
+    <script src="./js/main.js" defer></script>
+    <title>Planet Safe</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header" class="header">
+      <a title="Planet Safe" href="/" class="logo"><img src="assets/img/logo.png" alt="Planet Safe" /></a>
+
+      <nav id="navbar" class="navbar">
+        <a title="Home" href="/">Home</a>
+        <a title="Contato" href="contato">Contato</a>
+      </nav>
+
+      <div class="icons-container">
+        <i title="Menu de navegação" id="icon-menu" class="fa fa-bars"></i>
+        <i title="Pesquisar" class="fa fa-search"></i>
+        <a title="Conta" href="conta"><i class="fa fa-user"></i></a>
+      </div>
+    </header>
+    <!-- / HEADER -->
+
+    <main>
+      <!-- CONTACT -->
+      <section class="contact">
+        <div class="form-container">
+          <h2>Contate-nos</h2>
+          <p>Mande suas dúvidas, sugestões, ideias e agende um horário.</p>
+
+          <form>
+            <label for="name">Nome</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+
+            <label for="phone">Telefone (55)</label>
+            <input type="tel" id="phone" />
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" cols="30" rows="5"></textarea>
+
+            <button class="button success">Enviar</button>
+          </form>
+        </div>
+
+        <img title="Entre em contato" src="./assets/img/contact.svg" alt="Entre em contato" />
+      </section>
+      <!-- / CONTACT -->
+    </main>
+  </body>
+</html>

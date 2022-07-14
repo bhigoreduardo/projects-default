@@ -1,0 +1,14 @@
+/* RESET COMPONENTS */
+@import url(./default/reset.css);
+
+/* HELPERS COMPONENTS */
+@import url(./default/helpers.css);
+
+/* HEADER COMPONENT */
+@import url(./components/header.css);
+
+/* BANNER COMPONENT */
+@import url(./components/banner.css);
+
+/* CONTACT COMPONENT */
+@import url(./components/contact.css);

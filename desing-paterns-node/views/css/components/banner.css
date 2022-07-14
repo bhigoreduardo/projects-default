@@ -1,0 +1,144 @@
+.banner {
+  position: relative;
+}
+
+.banner .container {
+  width: 100%;
+  max-width: 700px;
+}
+
+.banner .container h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  color: var(--color-dark);
+}
+
+.banner .container p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  color: var(--color-dark);
+  margin-bottom: 20px;
+}
+
+.banner .container .button-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.banner .container span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: var(--color-dark);
+}
+
+.banner .container .social-container {
+  position: absolute;
+  bottom: 0;
+  padding: 100px 0;
+}
+
+.banner .container .social-container a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.banner .container .social-container i {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.banner .container .social-container i.fa-facebook,
+.banner .container .social-container i.fa-instagram {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.banner .container .social-container i.fa-twitter {
+  color: var(--color-dark);
+}
+
+.banner .container .social-container img {
+  width: 50px;
+}
+
+.banner .plant {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.banner .plant-1 {
+  top: 150px;
+  right: 0;
+
+  background: url(../../assets/img/plant-1.png);
+}
+
+.banner .plant-2 {
+  right: 40%;
+  bottom: 0;
+
+  background: url(../../assets/img/plant-2.png);
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .plant {
+    width: 250px;
+    height: 250px;
+  }
+
+  .banner .plant-2 {
+    right: 20%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    padding-top: 150px;
+  }
+
+  .banner .container h1 {
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  .banner .container p,
+  .banner .container span {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .banner .plant-1 {
+    display: none;
+  }
+
+  .banner .plant-2 {
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner .container .button-container {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .banner .container .social-container {
+    padding: 10px 0;
+  }
+
+  .banner .plant-2 {
+    display: none;
+  }
+}
