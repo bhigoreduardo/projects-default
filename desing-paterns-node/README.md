@@ -2,7 +2,6 @@
   💻<br>Node Server - Design Patterns
 </h1>
 <img src="./views/assets/img/node-server-cover.png" alt="Cover projeto">
-![Resultado final do projeto](views/assets/img/node-server-cover.png)
 
 ✅ Web Server.
 ✅ Design Responsivo.
