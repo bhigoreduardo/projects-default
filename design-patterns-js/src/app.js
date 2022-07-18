@@ -3,10 +3,13 @@ import Utils from "./service/Utils";
 
 // Import views
 import Home from "./views/home";
+import Contato from "./views/contato";
+import Error from "./views/error";
 
 // Routes
 let routes = {
   "/": Home,
+  "/contato": Contato,
 };
 
 // Manipulation router
