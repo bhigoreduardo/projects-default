@@ -7,4 +7,49 @@
 ::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="submit"],
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+select,
+textarea,
+input {
+  font-family: inherit;
+  border: none;
+  resize: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1248px;
+  padding: 0 24px;
 }

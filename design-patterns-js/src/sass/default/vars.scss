@@ -1,11 +1,41 @@
 /* IMPORT LINK FONT */
-@import url("https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 /* VARIABLES */
 :root {
   /* FONT FAMILY */
-  --font-family: "Miriam Libre", sans-serif;
+  --font-family: "Open Sans", sans-serif;
+
+  /* FONT-SIZE */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-h5: 20px;
+  --font-size-h4: 24px;
+  --font-size-h3: 28px;
+  --font-size-h2: 32px;
+  --font-size-h1: 40px;
+  --font-size-display: 56px;
+
+  /* FONT-WEIGHT */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* LINE-HEIGHT */
+  --line-height-xs: 1.5;
+  --line-height-sm: 1.5;
+  --line-height-base: 1.5;
+  --line-height-lg: 1.5;
+  --line-height-h5: 1.5;
+  --line-height-h4: 1.3;
+  --line-height-h3: 1.3;
+  --line-height-h2: 1.3;
+  --line-height-h1: 1.3;
+  --line-height-display: 1.3;
 
   /* COLORS SYSTEM */
-  
+  --color-primary: #051951;
+  --color-warning: #f18f01;
+  --color-white: #ffffff;
 }

@@ -1,2 +1,17 @@
 /* RESET COMPONENTS */
 @import "./default/reset.scss";
+
+/* HELPERS COMPONENTS */
+@import "./default/helpers.scss";
+
+/* HEADER COMPONENT */
+@import "./components/header.scss";
+
+/* BANNER COMPONENT */
+@import "./components/banner.scss";
+
+/* FOOTER COMPONENT */
+@import "./components/footer.scss";
+
+/* CONTACT COMPONENT */
+@import "./components/contact.scss";

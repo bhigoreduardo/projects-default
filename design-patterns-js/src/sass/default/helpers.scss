@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+  font-weight: var(--font-weight-bold);
+
+  img {
+    display: inline-block;
+    margin-left: 10px;
+    width: 13px;
+  }
+}
+
+.warning {
+  color: var(--color-white);
+  background-color: var(--color-warning);
+}
+
+.white {
+  color: var(--color-warning);
+  background-color: var(--color-white);
+}
