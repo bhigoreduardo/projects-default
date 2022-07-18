@@ -164,7 +164,6 @@ img {
   display: flex;
   align-items: center;
   height: 100vh;
-  background: url(../../assets/img/banner-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -257,7 +256,6 @@ img {
 /* CONTACT COMPONENT */
 .contact {
   padding: 100px 0;
-  background: url(../../assets/img/banner-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

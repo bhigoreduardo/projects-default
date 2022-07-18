@@ -3,12 +3,13 @@ import Footer from "../../components/footer";
 
 import check from "../../assets/img/circle-check.svg";
 import arrow from "../../assets/img/arrow.svg";
+import bg from "../../assets/img/banner-bg.png";
 
 let Home = {
   render: async () => {
     let view = `
     ${Header}
-<div class="banner">
+<div class="banner" style="background: url(${bg})">
     <div class="content container">
         <div class="information">
             <h1>Fornecemos quaisquer soluções <span>residenciais</span></h1>

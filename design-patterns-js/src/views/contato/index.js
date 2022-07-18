@@ -1,11 +1,13 @@
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 
+import bg from "../../assets/img/banner-bg.png";
+
 let Contato = {
   render: async () => {
     let view = `
         ${Header}
-        <div class="contact">
+        <div class="contact" style="background: url(${bg})">
           <div class="content container">
             <h2>Fale conosco</h2>
             <form>
